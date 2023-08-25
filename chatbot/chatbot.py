@@ -6,6 +6,7 @@ from tensorflow.keras.models import load_model
 from preprocess.preprocessing import clean_up_sentence, bag_of_words
 from utils.helpers import load_intents
 
+
 lemmatizer = WordNetLemmatizer()
 intents = load_intents()
 
